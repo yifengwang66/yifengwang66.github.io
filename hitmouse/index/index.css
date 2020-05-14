@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #45454d;
+    cursor: url('../image/hammer.ico'), auto;
+}
+.score{
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    margin:10px 0;
+    color: #fff;
+    font-size: 20px;
+ }
+#wrapper{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+.hole{
+    background-image: url(../image/hole.png);
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-size: cover;
+    position: relative;
+}
+.mouse{
+    background-image: url(../image/mouse.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+.boom{
+    background-image: url(../image/boom.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-left: -75px;
+    margin-top: -75px;
+}

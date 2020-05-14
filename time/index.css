@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: #000;
+}
+.wrap{
+    height: 800px;
+    width: 800px;
+    position: absolute;
+    left: calc(50% - 400px);
+    right: calc(50% - 400px);
+}
+.year, .month, .day, .week, .hour, .minute, .second{
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: all .2s;
+    height: 20px;
+    line-height: 20px;
+    transform-origin: 0 0;
+    font-size: 12px;
+}
+.year{
+    width: 50px;
+}
+.month {
+    width: 100px;
+}
+.day{
+    width: 150px;
+}
+.week{
+    width: 220px;
+}
+.hour{
+    width: 270px;
+}
+.minute{
+    width: 320px;
+}
+.second{
+    width: 370px;
+}
+
+.wrap span{
+    transform-origin: 0 0;
+    width: 0%;
+    text-align: right;
+    position: absolute;
+    height: 20px;
+    transition: all .5s;
+}
